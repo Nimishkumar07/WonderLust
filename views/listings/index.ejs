@@ -37,50 +37,94 @@
     align-items: center;
  }
 
+@media(min-width:993px) and (max-width:1300px){
+   .eight {
+    display: none;
+  }
+   .tax-toggle{
+    margin-left: 2rem;
+   }
+}
+@media(min-width:528px) and (max-width:768px){
+    .eight {
+    display: none;
+  }
+  .tax-toggle{
+    margin-left: 2rem;
+   }
+   #filters{
+    justify-content: space-evenly;
+   }
+}
+@media(max-width:528px){
+    .eight {
+    display: none;
+  }
+  .tax-toggle{
+    margin-left: 1rem;
+   }
+   .six,.seven{
+    display: none;
+   }
+   #filters{
+    justify-content: space-evenly;
+   }
+}
+@media(max-width:426px){
+    .six,.seven{
+    display: inline;
+   }
+}
+@media(max-width:394px){
+    .six{
+        display:none
+    }
+}
 </style>
 
     <div id="filters">
-        <div class="filter">
+        <div class="filter one">
             <div><i class="fa-solid fa-fire"></i></div>
             <p>Trending</p>
         </div>
-        <div class="filter">
+        <div class="filter two">
             <div><i class="fa-solid fa-bed"></i></div>
             <p>Room</p>
         </div>
-        <div class="filter">
+        <div class="filter three">
             <div><i class="fa-solid fa-mountain-city"></i></div>
             <p>Iconic Cities</p>
         </div>
-        <div class="filter">
+        <div class="filter four">
             <div><i class="fa-solid fa-mountain"></i></div>
             <p>Mountains</p>
         </div>
-        <div class="filter">
-            <div><i class="fa-brands fa-fort-awesome"></i></div>
-            <p>Castle</p>
-        </div>
-        <div class="filter">
+        <div class="filter five">
             <div><i class="fa-solid fa-person-swimming"></i></div>
             <p>Amazing Pools</p>
         </div>
-        <div class="filter">
+        <div class="filter six">
+            <div><i class="fa-brands fa-fort-awesome"></i></div>
+            <p>Castle</p>
+        </div>
+        <div class="filter seven">
             <div><i class="fa-solid fa-campground"></i></div>
             <p>Camping</p>
         </div>
-        <div class="filter">
+        
+        <div class="filter eight">
             <div><i class="fa-solid fa-cow"></i></div>
             <p>Farms</p>
         </div>
-        <div class="filter">
+        <div class="filter eight">
             <div><i class="fa-solid fa-snowflake"></i></div>
             <p>Arctic</p>
         </div>
-         <div class="filter">
+         <div class="filter eight">
             <div><i class="fa-solid fa-igloo"></i></div>
             <p>Domes</p>
         </div>
-        <div class="filter">
+        <div class="filter eight">
             <div><i class="fa-solid fa-ship"></i></div>
             <p>Boats</p>
         </div>

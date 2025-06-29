@@ -18,6 +18,19 @@
   padding: 0.5rem 3rem 0.5rem 3rem;
   font-size: 0.9rem;
 }
+@media(max-width:767px) {
+  .navDrop{
+    background-color: rgb(198, 205, 212);
+    padding: 0.75rem; 
+    border-radius: 0.25rem;
+  }
+}
+@media(max-width:955px){
+.explore{
+  display: none ;
+}
+}
+
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -26,9 +39,9 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse navDrop" id="navbarNav">
         <div class="navbar-nav">
-            <a class="nav-link" href="/listings">Explore</a>
+            <a class="nav-link explore" href="/listings">Explore</a>
         </div>
         <div class="navbar-nav ms-auto">
           <form class="d-flex" role="search">
