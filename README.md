@@ -48,9 +48,9 @@ WonderLust is a **full stack web application** where users can list their proper
 
 4. **Run the app:**
    ```bash
-   npm start
+   node app.js
    ```
-   The site will be available at `http://localhost:3000` by default.
+   The site will be available at `http://localhost:3000/listings` by default.
 
 ## Deployment
 
